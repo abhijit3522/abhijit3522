@@ -2,6 +2,55 @@
 <html>
 
 <head>
+
+    <style type="text/css">
+    .btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+
+}
+
+
+.color{
+    background:-webkit-linear-gradient(left, #fefc91, #ffd6d6);
+  }
+
+  /*.gall{
+    background:-webkit-linear-gradient(left, #fefc91, #ffd6d6);
+  }
+*/
+  .pro{
+    background:-webkit-linear-gradient(left, #fefc91, #ffd6d6);
+  }
+
+  .co{
+    background:-webkit-linear-gradient(left, #fefc91, #ffd6d6);
+  }
+</style>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<style>
+.mySlides1 {display:none;}
+</style>
+<style>
+.mySlides2 {display:none;}
+</style>
     <title>I'm Abhijit Patil</title>
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
 maximum-scale=1.0, user-scalable=no" />
@@ -38,6 +87,13 @@ maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--lightbox-->
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+
+
+
+
+
+    
+
 </head>
 
 <body>
@@ -46,7 +102,7 @@ maximum-scale=1.0, user-scalable=no" />
     </div>
     <nav class="navbar fixed-top navbar-expand-lg pt-0">
         <div class="container font-weight-bolder">
-            <a class="navbar-brand name_logo" href="#home"></a>
+            <!-- <a class="navbar-brand name_logo" href="#home"></a> -->
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -77,7 +133,7 @@ maximum-scale=1.0, user-scalable=no" />
     </div>
     <!-- header ends-->
     <!--About starts-->
-    <section >
+    <section class="color">
         <div class="row" id="about">
             <div class="about_info col-lg-6 p-2" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="50">
                 <h2 class="text-capitalize text-muted font-weight-bold">Who am I?</h2>
@@ -94,19 +150,19 @@ Social Media: Cultivated an Instagram following of over 250,000 individuals to d
                 <h3 class="text-center">Catch Me At</h3>
                 <div class="row">
                     <div class="mx-auto">
-                        <a href="https://www.facebook.com/Shubham.patill/" target="_blank">
+                        <a href="https://www.facebook.com/abhijit.patil.90834/" target="_blank">
                             <img src="assets/images/facebook.png" class="social_icon">
                         </a>
-                        <a href="https://www.instagram.com/iot_web_project/" target="_blank">
+                        <a href="https://www.instagram.com/abhijit.patil.90834/" target="_blank">
                         <img src="assets/images/instagram.png"  class="social_icon">
                         </a>
-                        <a href="https://www.linkedin.com/in/shub6059/" target="_blank">
+                        <a href="https://www.linkedin.com/in/abhijit-patil-3a0466199/" target="_blank">
                             <img src="assets/images/linkedin.png" class="social_icon">
                         </a>
-                        <a href="mailto:shubham.patil.shub6059@gmail.com?subject=hallo shubham">
+                        <a href="mailto:abhijit.patil.patilabhijit400@gmail.com?subject=Hello Abhijit">
                             <img src="assets/images/gmail.png" class="social_icon">
                         </a>
-                        <a href="https://github.com/shub6059" target="_blank">
+                        <a href="https://github.com/abhijit3522/abhijit3522" target="_blank">
                             <img src="assets/images/github.png" class="social_icon">
                         </a>
                     </div>
@@ -157,6 +213,15 @@ Self-management.
                     <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
                         <img src="assets/images/mobile.jpg" class="img-fluid" width="80px" height="130px">
                     </div>
+                     <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
+                        <img src="assets/images/images (11).jpg" class="img-fluid" width="80px" height="130px">
+                    </div>
+                    <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
+                        <img src="assets/images/images (12).jpg" class="img-fluid" width="80px" height="130px">
+                    </div>
+                    <div class="skillicon" data-aos="flip-up" data-aos-delay="500">
+                        <img src="assets/images/images (10).jpg" class="img-fluid" width="80px" height="130px">
+                    </div>
                     
 
                    
@@ -201,219 +266,247 @@ Self-management.
                 </div>
             </div>
         </div>
-        <div class="row" id="gallary">
-        <div class="p-3 mb-4" style="background:#f7f7f9;">
+    </section>
+
+    </section>
+    <!--gallery starts-->
+    <section class="gall">
+        <div class="container" id="gallary">
+            <div class="p-3 mb-4 gallary" style="background:webkit-linear-gradient(left, #fefc91, #ffd6d6);">
             <div data-aos="fade-up" data-aos-delay="30" data-aos-duration="500" data-aos-easing="ease-in-out">
             <h2 class="text-center text-capitalize text-muted m-2 font-weight-bold" >Art means the world to me</h2>
-            <hr class="center_underline">
+           <center> <hr class="center_underline"></center>
             </div>
-            <div class="row" id="gallary">
-            <div class="gallary_info col-lg-8 p-2" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="50">
-                <h2 class="text-capitalize text-muted font-weight-bold">&nbsp;PHOTOS</h2>
-                <hr class="left_underline">
-                <div class="row">
-                 <!-- <img src="assets/images/man.jpg" class="img-fluid" width="200px" height="200px"> -->
-                 <!-- <div class="col-md-3"> -->
-                    <!--  <img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.56 PM.jpeg" class="img-fluid" width="250px" height="250px"> -->
-                     <!-- <img src="assets/images/man.jpg" class="img-fluid" width="100px" height="100px"> -->
-                     <!-- <img src="assets/images/man.jpg" class="img-fluid" width="100px" height="100px"> -->
-                     
-                 <!-- </div> -->
-                  <!-- <div class="col-md-3"> -->
-                    <!--  <img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.55 PM (1).jpeg" class="img-fluid" width="250px" height="250px"> -->
-                     <!-- <img src="assets/images/man.jpg" class="img-fluid" width="100px" height="100px"> -->
-                     <!-- <img src="assets/images/man.jpg" class="img-fluid" width="100px" height="100px"> -->
-                     
-                 <!-- </div> -->
-                  <!-- <div class="col-md-3"> -->
-                     <!-- <img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.56 PM.jpeg" class="img-fluid" width="250px" height="250px"> -->
-                     <!-- <img src="assets/images/man.jpg" class="img-fluid" width="100px" height="100px"> -->
-                     <!-- <img src="assets/images/man.jpg" class="img-fluid" width="100px" height="100px"> -->
-                     
-                 <!-- </div> -->
+    <div class="row">
+        <div class="row" data-aos="fade-right" data-aos-delay="20" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/images (7).jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/images (7).jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/WhatsApp Image 2020-08-09 at 4.52.54 PM (1).jpeg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/WhatsApp Image 2020-08-09 at 4.52.54 PM (1).jpeg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
 
-                 </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/WhatsApp Image 2020-08-09 at 4.52.53 PM.jpeg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/WhatsApp Image 2020-08-09 at 4.52.53 PM.jpeg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/WhatsApp Image 2020-08-09 at 4.52.56 PM.jpeg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/WhatsApp Image 2020-08-09 at 4.52.56 PM.jpeg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/WhatsApp Image 2020-08-09 at 4.52.55 PM.jpeg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/WhatsApp Image 2020-08-09 at 4.52.55 PM.jpeg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
 
-                 
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/WhatsApp Image 2020-08-09 at 4.52.52 PM (1).jpeg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/WhatsApp Image 2020-08-09 at 4.52.52 PM (1).jpeg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/download (3).jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/download (3).jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/WhatsApp Image 2020-08-09 at 4.52.51 PM.jpeg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/WhatsApp Image 2020-08-09 at 4.52.51 PM.jpeg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
 
 
-                 <!-- <div style="display: flex; flex-wrap: wrap;"> -->
-                 
-                <!-- </div> -->
-                <img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.51 PM.jpeg" class="img-fluid" width="250px" height="250px"> 
-                <img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.54 PM (1).jpeg" class="img-fluid" width="250px" height="250px"> 
-                <img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.51 PM.jpeg" class="img-fluid" width="250px" height="250px"> 
-                <img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.52 PM.jpeg
-" class="img-fluid" width="250px" height="250px"> 
-<img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.55 PM.jpeg" class="img-fluid" width="250px" height="250px">  
-<img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.52 PM.jpeg
-" class="img-fluid" width="250px" height="250px">
-<img src="assets/images/images.jpg
-" class="img-fluid" width="375px" height="375px">
-<img src="assets/images/WhatsApp Image 2020-08-09 at 4.52.53 PM.jpeg
-" class="img-fluid" width="375px" height="375px">
-  
 
-               
-               <!--  <p>I'm <b>Swapnil Patil</b>, an Resume Summary
-Composition: Capture stunning portraits using a DSLR and 4+ lenses
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/images.jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/images.jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/download (4).jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/download (4).jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/images (6).jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/images (6).jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="max-width:330px">
+                <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                   data-image="assets/images/images (8).jpg"
+                   data-target="#image-gallery">
+                    <img class="img-thumbnail"
+                         src="assets/images/images (8).jpg"
+                         style="height: 180px; width: 330px;"
+                         alt="Another alt text">
+                </a>
+            </div>
 
-Post-processing: Create unique digital imaging effects in Adobe Lightroom and Photoshop
+        </div>
 
-Awards & Recognition: Winner of the LensBoss ‘Portrait Photographer of the Year’ award 2018
 
-Social Media: Cultivated an Instagram following of over 250,000 individuals to drive freelance business.</p>
-                <h3 class="text-center">Catch Me At</h3> -->
-                <div class="row">
-                    <div class="mx-auto">
-                         <!-- <img src="assets/images/man.jpg" class="img-fluid" width="300px" height="200px"> -->
-                        <!-- <a href="https://www.facebook.com/Shubham.patill/" target="_blank">
-                            <img src="assets/images/facebook.png" class="social_icon">
-                        </a>
-                        <a href="https://www.instagram.com/iot_web_project/" target="_blank">
-                        <img src="assets/images/instagram.png"  class="social_icon">
-                        </a>
-                        <a href="https://www.linkedin.com/in/shub6059/" target="_blank">
-                            <img src="assets/images/linkedin.png" class="social_icon">
-                        </a>
-                        <a href="mailto:shubham.patil.shub6059@gmail.com?subject=hallo shubham">
-                            <img src="assets/images/gmail.png" class="social_icon">
-                        </a>
-                        <a href="https://github.com/shub6059" target="_blank">
-                            <img src="assets/images/github.png" class="social_icon">
-                        </a> -->
+        <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="image-gallery-title"></h4>
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+                        </button>
+
+                        <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+                        </button>
                     </div>
                 </div>
-                <!-- <a href="#" class="btn btn-outline-info" onclick="alert('Function not available')">Download Cv</a> -->
-            </div>
-            <div class="col-lg-4 skills" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="50">
-                <h2 class="text-capitalize mb-4 text-muted font-weight-bold">PHOTOGRAPHY</h2>
-                <hr class="left_underline">
-                 Photography gives me that sense of purpose. Photography also gives me creative fulfilment. It helps me express myself artistically, and that's a wonderful thing. Creativity is a major part of my life.
-                 At the end of my photo workshops, and during my seminars, I often ask the participants a simple question: “What does your photography mean to you?”<br>
-
-I ask the question because I know just how important photography is to many people, and I think hearing the answer out loud helps the individual and the others in the room (or around a campfire).<br>
-
-Yes, it’s a simple question, but one that elicits interesting—and often emotional—responses. Why the emotional response, which is sometimes accompanied by teary eyes? Because for many people, including you, photography plays an important—sometimes vital—role in life.
-
-Learn from yesterday, live for today and hope for tomorrow. The important thing is not to stop questioning. —Albert Einstein
-                
-
-
-
-               <!--  <div style="display: flex; flex-wrap: wrap;">
-                    Photography gives me that sense of purpose. Photography also gives me creative fulfilment. It helps me express myself artistically, and that's a wonderful thing. Creativity is a major part of my life.
-                </div> -->
             </div>
         </div>
     </div>
+</div>
+</div>
 
-
-            <div class="row">
-                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
-                  <!--   <a href="assets/art/1.jpg" data-lightbox="art_gallery" data-title="Doodling"><img alt="picture" src="assets/art/1.jpg" class="img-fluid art" alt="Doodling"></a> -->
-                </figure>
-                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
-                 <!--    <a href="assets/art/2.jpg" data-lightbox="art_gallery" data-title="Doodling"><img alt="picture" src="assets/art/2.jpg" class="img-fluid art" alt="Doodling"></a> -->
-                </figure>
-                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
-                    <!-- <a href="assets/art/3.jpg" data-lightbox="art_gallery" data-title="Scribbling"><img alt="picture" src="assets/art/3.jpg" class="img-fluid art" alt="Scribbling"></a> -->
-                </figure>
-                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
-                 <!--    <a href="assets/art/4.jpg" data-lightbox="art_gallery" data-title="Hatching"><img alt="picture" src="assets/art/4.jpg" class="img-fluid art" alt="Hatching"></a> -->
-                </figure>
-                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
-                 <!--    <a href="assets/art/5.jpg" data-lightbox="art_gallery" data-title="Hatching"><img alt="picture" src="assets/art/5.jpg" class="img-fluid art" alt="Hatching"></a> -->
-                </figure>
-                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
-                 <!--    <a href="assets/art/6.jpg" data-lightbox="art_gallery" data-title="Zentangle Art"><img alt="picture" src="assets/art/6.jpg" class="img-fluid art" alt="Zentangle Art"></a> -->
-                </figure>
-                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
-                <!--     <a href="assets/art/7.jpg" data-lightbox="art_gallery" data-title="FaceArt(Rebecca Ferguson)"><img alt="picture" src="assets/art/7.jpg" class="img-fluid art" alt="FaceArt"></a> -->
-                </figure>
-                <figure class="col-md-3 col-lg-3" data-aos="zoom-in-up">
-                 <!--    <a href="assets/art/9.jpg" data-lightbox="art_gallery" data-title="Chalk Carving"><img alt="picture" src="assets/art/9.jpg" class="img-fluid art" alt="Chalk Carving"></a> -->
-                </figure>
-            </div>
-        </div>
     </section>
-    <!--about ends-->
-    <!--projects starts-->
-    <section class="projects container" id="projects">
+   
+   <!--projects starts-->
+    <section class="projects container co" id="projects" style="background-color: webkit-linear-gradient(left, #fefc91, #ffd6d6);">
+        <div class="container" id="projects">
+        <center>
         <div data-aos="fade-up" data-aos-delay="20" data-aos-duration="500" data-aos-easing="ease-in-out">
         <h2 class="text-muted text-capitalize text-center mb-2 font-weight-bold" >What I've done so far</h2>
         <hr class="center_underline">
         </div>
-        <div class="row">
-            <div class="project col-12 col-md-6 col-lg-4 col-sm-6">
-                <div class="single_card card text-center" data-aos="zoom-out-up">
-                    <!-- <img src="assets/projects/Tic_Tac_Toe.png" class="card-img-top" alt="Tic Tac Toe"> -->
-                    <img src="assets/images/images (1).jpg" class="img-fluid" width="350px" height="250px"> 
+        </center>
+
+         <div class="row">
+
+            <div class="project col-12 col-md-6 col-lg-4 col-sm-6 w3-container">
+                <div class="single_card card text-center w3-content w3-section" data-aos="zoom-out-up">
+                    <div class="w3-content w3-section" style="max-width:330px">
+                    <img class="mySlides w3-animate-middle" src="assets/images/images (1).jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides w3-animate-middle" src="assets/images/images (2).jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides w3-animate-middle" src="assets/images/images (4).jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
                     <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Marriage Function</h5>
-                        <!-- <p class="card-text">It is a simple Tic Tac Toe game which have both Single player as well as Dual player mode. I bet, you can't win against PC ;)
-                            <p class="text-muted font-weight-bold">HTML5 | CSS(Bootstrap) | JavaScript</p>
-                        </p> -->
-                        <a href="https://github.com/shub6059/Tic-Tac-Toe-2.0" class="btn btn-outline-secondary" target="_blank"><img src="assets/images/code.png" class="img-fluid" width="30px"> <strong>Repository</strong></a>
-                        <a href="" class="btn btn-outline-dark mt-1" target="_blank"><img src="assets/images/www.png" class="img-fluid" width="30px"><strong>Web Link</strong></a>
-                    </div>
-                </div>
-            </div><br><br>
-         
-            <div class="project col-12 col-md-6 col-lg-4 col-sm-6">
-                <div class="single_card card text-center" data-aos="zoom-out-up">
-                    <img src="assets/images/img.jpg" class="img-fluid" width="400px" height="400px"> 
-                    <!-- <img src="assets/projects/Weather_App.png" class="card-img-top" alt="Weather App"> -->
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Birthady Function</h5>
-                        <!-- <p class="card-text">It is an app to show the date,temperature,humidity and wind speed of the desired location
-                            <p class="text-muted font-weight-bold">VueJS Frontend Framework</p>
-                        </p> -->
-                        <a href="https://github.com/shub6059/Weather_App" class="btn btn-outline-secondary" target="_blank"><img src="assets/images/code.png" class="img-fluid" width="30px"> <strong>Repository</strong></a>
-                        <a href="" class="btn btn-outline-dark mt-1" target="_blank"><img src="assets/images/www.png" class="img-fluid" width="30px"><strong>Web Link</strong></a>
-                    </div>
-                </div>
-            </div><br><br>
-            <div class="project col-12 col-md-6 col-lg-4 col-sm-6">
-                <div class="single_card card text-center" data-aos="zoom-out-up">
-                    <img src="assets/images/1024px-Graduation_ceremony_with_Azim_Premji.jpg" class="card-img-top" alt="Roadrage">
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">convocation</h5>
-                        <!-- <p class="card-text">This is a simple game in which the player is required to dodge the cars using Arrow Keys
-                            <p class="text-muted font-weight-bold">HTML5 | CSS(Bootstrap) | JavaScript</p>
-                        </p> -->
-                        <a href="https://github.com/shub6059/Roadrage" class="btn btn-outline-secondary" target="_blank"><img src="assets/images/code.png" class="img-fluid" width="30px"> <strong>Repository</strong></a>
-                        <a href="" class="btn btn-outline-dark mt-1" target="_blank"><img src="assets/images/www.png" class="img-fluid" width="30px"><strong>Web Link</strong></a>
+                        <h5 class="card-title font-weight-bold">Marriage Fuction</h5>
+                       
+                        <a href="" class="btn btn-outline-secondary"><img src="assets/images/download.png" class="img-fluid" width="30px"> <strong>Home</strong></a>
+                        <a href="" class="btn btn-outline-dark mt-1"><img src="assets/images/download (1).jpg" class="img-fluid" width="30px"><strong>Contact</strong></a>
                     </div>
                 </div>
             </div>
-             <!--   <div class="project col-12 col-md-6 col-lg-4 col-sm-6">
-                <div class="single_card card text-center" data-aos="zoom-out-up">
-                    <img src="assets/projects/Flappy_Bird.png" class="card-img-top" alt="Flappy Bird">
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Flappy Bird</h5>
-                        <p class="card-text">The flappy bird game which we all love to play in our mobile devices is now available on PC..So just give it a shot..
-                            <p class="text-muted font-weight-bold">Python</p>
-                        </p>
-                        <a href="https://github.com/KKVANONYMOUS/flappy-bird" class="btn btn-outline-secondary" target="_blank"><img src="assets/images/code.png" class="img-fluid" width="30px"> <strong>Repository</strong></a>
-                    </div>
-                </div>
-            </div>
-              <div class="project col-12 col-md-6 col-lg-4 col-sm-6">
-                <div class="single_card card text-center" data-aos="zoom-out-up">
-                    <img src="assets/projects/fakebook.png" class="card-img-top" alt="Fakebook">
-                    <div class="card-body">
-                        <h5 class="card-title font-weight-bold">Fakebook</h5>
-                        <p class="card-text">This web app is a clone of Facebook, containing most of its prominent features, purely made for education purposes only.
-                            <p class="text-muted font-weight-bold">NodeJS | ExpressJS | MongoDB(Atlas)</p>
-                        </p>
-                        <a href="https://github.com/KKVANONYMOUS/facebook-clone" class="btn btn-outline-secondary" target="_blank"><img src="assets/images/code.png" class="img-fluid" width="30px"> <strong>Repository</strong></a>
-                        <a href="https://secret-bayou-21517.herokuapp.com/" class="btn btn-outline-dark mt-1" target="_blank"><img src="assets/images/www.png" class="img-fluid" width="30px"><strong>Web Link</strong></a>
-                    </div>
-                </div>
-            </div> -->
         </div>
+         
+            <div class="project col-12 col-md-6 col-lg-4 col-sm-6 w3-container">
+                <div class="single_card card text-center w3-content w3-section" data-aos="zoom-out-up">
+                    <div class="w3-content w3-section" style="max-width:330px">
+                    <img class="mySlides1 w3-animate-middle" src="assets/images/birth.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides1 w3-animate-middle" src="assets/images/img.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides1 w3-animate-middle" src="assets/images/B.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Birthady Fuction</h5>
+                       
+                        <a href="" class="btn btn-outline-secondary"><img src="assets/images/download.png" class="img-fluid" width="30px"> <strong>Home</strong></a>
+                        <a href="" class="btn btn-outline-dark mt-1"><img src="assets/images/download (1).jpg" class="img-fluid" width="30px"><strong>Contact Now</strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="project col-12 col-md-6 col-lg-4 col-sm-6 w3-container">
+                <div class="single_card card text-center w3-content w3-section" data-aos="zoom-out-up">
+                    <div class="w3-content w3-section" style="max-width:330px">
+                    <img class="mySlides2 w3-animate-middle" src="assets/images/1024px-Graduation_ceremony_with_Azim_Premji.jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides2 w3-animate-middle" src="assets/images/images (5).jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <img class="mySlides2 w3-animate-middle" src="assets/images/download (2).jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                     <img class="mySlides2 w3-animate-middle" src="assets/images/images (3).jpg" style="height: 280px; width: 330px;" alt="Tic Tac Toe">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">College Annual fuction</h5>
+                       
+                        <a href="" class="btn btn-outline-secondary"><img src="assets/images/download.png" class="img-fluid" width="30px"> <strong>Home</strong></a>
+                        <a href="" class="btn btn-outline-dark mt-1"><img src="assets/images/download (1).jpg" class="img-fluid" width="30px"><strong>Contact Now</strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+
         <h1 class="display-6 text-muted text-center m-4">...and many more projects</h1>
+        <center><hr class="center_underline"></center>
+    </div>
+    </section>
+    <!--projects ends-->
+        <!-- <h1 class="display-6 text-muted text-center m-4">...and many more projects</h1> -->
 
 
 
@@ -459,10 +552,40 @@ input[type=submit]:hover {
 </style>
 </head>
 <body> -->
-    <div class="" id="contact" style="background-image: url('D:/xampp/htdocs/portfolio-master/assets/images/WhatsApp Image 2020-08-09 at 4.52.56 PM.jpeg');">
 
-​
-<center><h3>Contact Us</h3>
+
+            <div class="row pro" id="contact" style="background:webkit-linear-gradient(left, #fefc91, #ffd6d6);">
+            <div class="about_info col-lg-6 p-2" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-delay="50">
+                <h2 class="text-capitalize text-muted font-weight-bold">PHOTOGRAPHY</h2>
+                <hr class="left_underline">
+                <!-- <img src="assets/images/man.jpg" class="img-fluid" width="100px" height="100px"> -->
+                <p>Color photography started to become popular and accessible with the release of Eastman Kodak’s “Kodachrome” film in the 1930s. Before that, almost all photos were monochromatic – although a handful of photographers, toeing the line between chemists and alchemists, had been using specialized techniques to capture color images for decades before. You’ll find some fascinating galleries of photos from the 1800s or early 1900s captured in full color, worth exploring if you have not seen them already.
+
+These scientist-magicians, the first color photographers, are hardly alone in pushing the boundaries of one of the world’s newest art forms. The history of photography has always been a history of people – artists and inventors who steered the field into the modern era.</p>
+               <!--  <h3 class="text-center">Catch Me At</h3>
+                <div class="row">
+                    <div class="mx-auto">
+                        <a href="https://www.facebook.com/Shubham.patill/" target="_blank">
+                            <img src="assets/images/facebook.png" class="social_icon">
+                        </a>
+                        <a href="https://www.instagram.com/iot_web_project/" target="_blank">
+                        <img src="assets/images/instagram.png"  class="social_icon">
+                        </a>
+                        <a href="https://www.linkedin.com/in/shub6059/" target="_blank">
+                            <img src="assets/images/linkedin.png" class="social_icon">
+                        </a>
+                        <a href="mailto:shubham.patil.shub6059@gmail.com?subject=hallo shubham">
+                            <img src="assets/images/gmail.png" class="social_icon">
+                        </a>
+                        <a href="https://github.com/shub6059" target="_blank">
+                            <img src="assets/images/github.png" class="social_icon">
+                        </a>
+                    </div>
+                </div> -->
+                <!-- <a href="#" class="btn btn-outline-info" onclick="alert('Function not available')">Download Cv</a> -->
+            </div>
+            <div class="col-lg-6 skills" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-delay="50">
+                <center><h3>Contact Us</h3>
 ​
 <div class="container">
   <form action="/action_page.php">
@@ -482,8 +605,23 @@ input[type=submit]:hover {
     <!-- <label for="subject">Subject</label> -->
     <textarea id="subject" name="subject" placeholder="Write something.." style="width:450px"></textarea><br>
 ​
-    <input type="submit" value="Submit" style="width: 450px; color: white;background-color: skyblue;"></center>
+    <input type="submit" value="Submit" style="width: 450px; color: white;background-color: skyblue;"><br>
+
+    <a href="mailto:abhijit.patil.patilabhijit400@gmail.com?subject=Hello Abhijit">
+                            <img src="assets/images/gmail.png" class="social_icon">
+                        </a>
+</center>
   </form>
+               
+            </div>
+        </div>
+    <!-- <div class="" id="contact" style="background-image: url('D:/xampp/htdocs/portfolio-master/assets/images/WhatsApp Image 2020-08-09 at 4.52.56 PM.jpeg');"> -->
+
+
+
+
+​
+
 </div>
 </div>
 ​
@@ -509,16 +647,16 @@ input[type=submit]:hover {
                 <div class="col-md-12 pt-5">
                     <div class="mb-4 text-center">
                         <ul class="icons">
-                            <a href="https://www.facebook.com/shubham.patill/" target="_blank">
+                            <a href="https://www.facebook.com/abhijit.patil.90834/" target="_blank">
                                 <li><i class="fa fa-facebook"> </i></li>
                             </a>
-                            <a href="https://www.linkedin.com/in/shub6059/" target="_blank">
+                            <a href="https://www.linkedin.com/in/abhijit-patil-3a0466199/" target="_blank">
                                 <li><i class="fa fa-linkedin"> </i></li>
                             </a>
-                            <a href="https://www.instagram.com/iot_web_project/" target="_blank">
+                            <a href="https://www.instagram.com/abhijit.patil.90834/" target="_blank">
                                 <li><i class="fa fa-instagram"> </i></li>
                             </a>
-                            <a href="https://github.com/shub6059" target="_blank">
+                            <a href="https://github.com/abhijit3522/abhijit3522" target="_blank">
                                 <li><i class="fa fa-github"> </i></li>
                             </a>
                         </ul>
@@ -529,11 +667,13 @@ input[type=submit]:hover {
                 <a href="https://github.com/shub6059/shub6059.github.io" target="_blank" class="btn btn-light"><img src="assets/images/code2.png" width="20px"> <span style="font-family: 'Lato', sans-serif;">Source Code</span></a>
             </div>
             <hr>
-            <div class="credit text-center text-white pb-4">Designed and Developed by <strong>Abhijit Patil And Amit Patil</strong> with <i class="fa fa-heart"></i>
+            <div class="credit text-center text-white pb-4">Designed and Developed by <strong>Abhijit Patil</strong> with <i class="fa fa-heart"></i>
             </div>
             <div class="scrolltop float-right">
                 <i class="fa fa-arrow-up" onclick="topFunction()" id="topbtn"></i>
             </div>
+
+            
         
     </footer>
     <!-- Footer ends -->
@@ -549,6 +689,158 @@ input[type=submit]:hover {
     </script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/main.js"></script>
+
+
+
+    <script type="text/javascript">
+    let modalId = $('#image-gallery');
+
+$(document)
+  .ready(function () {
+
+    loadGallery(true, 'a.thumbnail');
+
+    //This function disables buttons when needed
+    function disableButtons(counter_max, counter_current) {
+      $('#show-previous-image, #show-next-image')
+        .show();
+      if (counter_max === counter_current) {
+        $('#show-next-image')
+          .hide();
+      } else if (counter_current === 1) {
+        $('#show-previous-image')
+          .hide();
+      }
+    }
+
+    /**
+     *
+     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
+     * @param setClickAttr  Sets the attribute for the click handler.
+     */
+
+    function loadGallery(setIDs, setClickAttr) {
+      let current_image,
+        selector,
+        counter = 0;
+
+      $('#show-next-image, #show-previous-image')
+        .click(function () {
+          if ($(this)
+            .attr('id') === 'show-previous-image') {
+            current_image--;
+          } else {
+            current_image++;
+          }
+
+          selector = $('[data-image-id="' + current_image + '"]');
+          updateGallery(selector);
+        });
+
+      function updateGallery(selector) {
+        let $sel = selector;
+        current_image = $sel.data('image-id');
+        $('#image-gallery-title')
+          .text($sel.data('title'));
+        $('#image-gallery-image')
+          .attr('src', $sel.data('image'));
+        disableButtons(counter, $sel.data('image-id'));
+      }
+
+      if (setIDs == true) {
+        $('[data-image-id]')
+          .each(function () {
+            counter++;
+            $(this)
+              .attr('data-image-id', counter);
+          });
+      }
+      $(setClickAttr)
+        .on('click', function () {
+          updateGallery($(this));
+        });
+    }
+  });
+
+// build key actions
+$(document)
+  .keydown(function (e) {
+    switch (e.which) {
+      case 37: // left
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-previous-image').is(":visible")) {
+          $('#show-previous-image')
+            .click();
+        }
+        break;
+
+      case 39: // right
+        if ((modalId.data('bs.modal') || {})._isShown && $('#show-next-image').is(":visible")) {
+          $('#show-next-image')
+            .click();
+        }
+        break;
+
+      default:
+        return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+  });
+
+</script>
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3500);    
+}
+</script>
+
+<script>
+var myIndex1 = 0;
+carousel1();
+
+function carousel1() {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex1++;
+  if (myIndex1 > x.length) {myIndex1 = 1}    
+  x[myIndex1-1].style.display = "block";  
+  setTimeout(carousel1, 4500);    
+}
+</script>
+
+<script>
+var myIndex3 = 0;
+carousel2();
+
+function carousel2() {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex3++;
+  if (myIndex3 > x.length) {myIndex3 = 1}    
+  x[myIndex3-1].style.display = "block";  
+  setTimeout(carousel2, 5500);    
+}
+</script>
 </body>
 
 </html>
